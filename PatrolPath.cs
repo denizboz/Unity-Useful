@@ -1,4 +1,4 @@
-/* A script that make any attached object smoothly patrol through designated world points, using
+/* A script that make any attached object smoothly patrol through designated world points in XZ plane, using
    centripetal Catmull-Rom splines. Any number of patrol points can be created and edited in the inspector. */
 
 using System.Collections.Generic;
