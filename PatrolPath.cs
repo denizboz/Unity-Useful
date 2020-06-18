@@ -122,7 +122,7 @@ public class PatrolPath : MonoBehaviour
 	}
 
 	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-     * CatmullRom() and GetT() below are taken from https://en.wikipedia.org/wiki/Centripetal_Catmull–Rom_spline *
+     	 * CatmullRom() and GetT() below are taken from https://en.wikipedia.org/wiki/Centripetal_Catmull–Rom_spline *
 	 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 	List<Vector2> CatmullRom(Vector2[] catmullPoints)
