@@ -7,7 +7,7 @@ using UnityEngine;
 public class PatrolPath : MonoBehaviour
 {
     public Vector2[] patrolPoints;  // points through which the robot will pass
-	public Vector2 finalPosition;   // final position at the end of patrol
+    public Vector2 finalPosition;   // final position at the end of patrol
 
 	Vector2 startGuide;     // reference Catmull point for initial position
 	Vector2 endGuide;       // reference Catmull points for final position
@@ -122,7 +122,7 @@ public class PatrolPath : MonoBehaviour
 	}
 
 	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-     	 * CatmullRom() and GetT() below are taken from https://en.wikipedia.org/wiki/Centripetal_Catmull–Rom_spline *
+     * CatmullRom() and GetT() below are taken from https://en.wikipedia.org/wiki/Centripetal_Catmull–Rom_spline *
 	 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 	List<Vector2> CatmullRom(Vector2[] catmullPoints)
