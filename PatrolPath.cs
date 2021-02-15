@@ -112,7 +112,7 @@ public class PatrolPath : MonoBehaviour
 			if (count == totalNumberOfPoints - 1)
 				entropy = false;
 		}
-        else if (!entropy)
+        else
         {
 			transform.position = allTheWay[count];
 			count--;
